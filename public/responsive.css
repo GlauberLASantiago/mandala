@@ -1,0 +1,17 @@
+@media (max-width: 1000px) {
+  .dashboard-grid { grid-template-columns: minmax(0, 1fr); }
+  .intro { flex-wrap: wrap; }
+  .date { display: none; }
+}
+nav { min-height: 0; }
+.dashboard-grid > div, .list-item > div { min-width: 0; }
+.list-item strong { overflow-wrap: anywhere; }
+@media (max-width: 480px) {
+  header { padding: 0 15px; }
+  .breadcrumb { font-size: 9px; }
+  .avatar { display: none; }
+  main { padding: 23px 15px; }
+  .toolbar-actions { flex-wrap: wrap; }
+  .hero h2 { max-width: 80%; }
+  .hero p { max-width: 85%; }
+}
