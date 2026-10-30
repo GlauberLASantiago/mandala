@@ -1,0 +1,4 @@
+@media print {
+  [data-print-hidden="true"] { display: none !important; }
+  .print-only { margin: 30px; font-size: 14px; line-height: 1.8; }
+}

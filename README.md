@@ -1,4 +1,4 @@
-# Novo Mandala — primeira versão navegável
+# Novo Mandala — versão navegável 0.2
 
 Protótipo local em HTML, CSS e JavaScript, separado do sistema PHP legado. Não requer instalação de dependências.
 
@@ -8,11 +8,23 @@ Com Node.js instalado, nesta pasta execute `npm start` e abra <http://localhost:
 
 `npm run check` verifica a sintaxe JavaScript.
 
+`npm test` verifica contagem de componentes, compartilhamento entre habilitações, bloqueio de períodos e fases de entrega do TCC.
+
 ## Disponível
 
 Painel, estudantes, componentes/ofertas, cursos/habilitações, trilha, notas/histórico, TCC, certificados/atestados, pessoas, encontros, financeiro, comunicação, páginas, relatórios e configurações. Cadastros de demonstração podem ser criados e editados, filtrados e exportados para CSV. Persistência somente em localStorage no navegador.
 
 ## Limites explícitos
+
+### Visão do aluno
+
+O perfil Aluno agora possui navegação própria: área virtual, trilha, histórico, cadastro de TCC por habilitação, entrega e perfil. A trilha inclui ofertas por mês, NFO/NFE/NFC, escolhas H1/H2, bloqueio de períodos passados/correntes, prevenção de componentes duplicados e resumo de critérios do legado. Escolhas incompletas podem ser salvas. O período demonstrativo é outubro de 2026.
+
+O histórico separa nota virtual, presencial, média e frequência; a impressão pode ser salva como PDF pelo navegador, sem reproduzir ainda os modelos oficiais. O perfil mantém identificação somente leitura e permite editar os demais dados e acrescentar formação. O TCC possui caracterização, sínteses e propostas ordenáveis. Nas entregas são registrados apenas nomes de arquivos e datas; nenhum conteúdo é enviado ou armazenado. A troca de senha depende da autenticação futura.
+
+Fontes funcionais consultadas: views de aluno e TCC, tabela de inscrição em ofertas, contagem de componentes, `Constantes.php` e métodos de elegibilidade de entrega em `Tcc.php` do legado. Nenhum arquivo PHP legado foi copiado para este repositório.
+
+### Ainda pendente
 
 Esta versão não é um sistema de produção. Não há backend de negócio, banco compartilhado, autenticação, autorização, emissão oficial de documentos, envio de e-mail, integração com Moodle ou operação financeira. A troca de perfil é demonstrativa. O gráfico do painel é ilustrativo. As regras completas do legado e seus fluxos especializados ainda não foram implementados. Não inserir dados pessoais reais.
 
