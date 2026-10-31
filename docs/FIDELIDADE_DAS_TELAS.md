@@ -13,7 +13,7 @@ Este é o controle de reconstrução. “Demonstração local” significa que o
 | Docentes, tutores e colaboradores | views `gerenciar`, `cadastrar`, `editar`, `visualizar` | Pendente de reconstrução específica |
 | Encontros presenciais | `encontro/gerenciar.php`, presença e responsáveis | Pendente de reconstrução específica |
 | Notas e inscrições em ofertas | views administrativas e `InscricaoOferta` | Histórico do aluno reconstruído; gestão administrativa pendente |
-| TCC | views de aluno, administração e modelo `Tcc` | Fluxo do aluno parcialmente reconstruído; avaliação administrativa pendente |
+| TCC | views de aluno, administração e modelo `Tcc` | Fluxo do aluno parcialmente reconstruído; gestão administrativa com fases, filas de atribuição e edição local reconstruída; arquivos privados e avaliação real dependem do backend |
 | Financeiro | pagamentos, bolsas, viagens e compras | Pendente de reconstrução específica |
 | Certificados e atestados | administração e modelos de declaração | Pendente de geração com backend privado |
 | Relatórios e configurações | `admin/relatorios.php`, configurações | Pendente de reconstrução específica |
