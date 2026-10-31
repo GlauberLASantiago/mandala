@@ -6,7 +6,7 @@ Este é o controle de reconstrução. “Demonstração local” significa que o
 | --- | --- | --- |
 | Acesso, cabeçalho, menu e rodapé | layouts do tema custom | Estrutura e ativos do tema aplicados; acesso ainda demonstrativo |
 | Gerenciar inscrições | `admin/gerenciarInscricoes*.php`, `editarInscricao.php`, `visualizarInscricao.php` | Reconstruída com status 1/2/3, documentos, bolsa, matrícula, exportação, consulta e edição local |
-| Alunos matriculados/inscritos | `visualizarMatriculados.php`, `visualizarInscritos.php` | Dados e relações previstos no esquema; tela específica ainda pendente |
+| Alunos matriculados/inscritos | `visualizarMatriculados.php`, `visualizarInscritos.php` | Visualização de matriculados reconstruída com consulta, edição e salvamento local de status; a lista específica de inscritos ainda será concluída |
 | Habilitações | `habilitacao/gerenciar.php`, `cadastrar.php`, `editar.php` | Lista e formulário nome/letra/cor/curso reconstruídos localmente |
 | Componentes curriculares | modelo e views `componenteCurricular` | Nome, carga, ementa, bibliografia e NFO/NFE/NFC reconstruídos localmente |
 | Ofertas | modelo `Oferta` e `oferta/gerenciar.php` | Campos estruturais disponíveis; grade mensal, bloqueios e associações completas pendentes |
