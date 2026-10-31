@@ -1,0 +1,72 @@
+/* Complementos de marcação. Identidade visual vem dos CSSs originais em legacy/. */
+.demo-controls{background:#fff9eb;border-bottom:1px solid #ebdfbd;font-size:11px;color:#786c53}
+.demo-controls .container{padding-top:5px;padding-bottom:5px}
+.demo-controls label{display:inline;float:none;width:auto;text-align:left;font-size:11px;padding:0}
+.demo-controls select{font-size:11px;width:110px;height:24px;margin:0 8px}
+.demo-control-note{color:#999}
+#nav>li{position:relative}#nav>li>ul{left:0;top:100%;min-width:210px}
+#nav>li:focus-within>ul{visibility:visible}#nav>li>a{font-size:14px}
+#header .logo{max-width:calc(100vw - 40px);background-size:contain}
+#breadcrumb{margin:0 0 20px}#content{min-height:140px}#content:after{content:'';display:block;clear:both}
+.eyebrow,.student-context,.stats,.hero,.mandala-art,.student-links,.intro>div>p{display:none}
+.intro{margin-bottom:20px}.intro h1{margin:10px 0}
+.panel,.student-card{border:0;border-radius:0;box-shadow:none;background:transparent;margin:0 0 25px;padding:0}
+.panel-heading{padding:0;margin-bottom:15px;display:flex;align-items:center;gap:12px;justify-content:space-between}
+.panel-heading .pill{font-size:12px;font-weight:normal;color:#888}
+.button,.row-button{display:inline-block;cursor:pointer;font-size:14px;color:#333;padding:4px 12px;margin-bottom:0;line-height:20px;background:#f5f5f5;border:1px solid #bbb;border-bottom-color:#a2a2a2;border-radius:0;text-align:center;text-shadow:0 1px 1px #ffffffbf}
+.button:not(.secondary){background:#5bb75b;color:#fff;text-shadow:0 -1px 0 #0004;border-color:#51a351}
+.button:hover,.row-button:hover{text-decoration:none;background:#e6e6e6;color:#333}
+.button:disabled,.row-button:disabled{cursor:default;opacity:.45}
+.student-actions{display:flex;gap:10px;margin:20px 0;flex-wrap:wrap}
+.table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse}
+th,td{padding:8px;border-top:1px solid #ddd;text-align:left;font-size:14px;vertical-align:top}
+th{font-weight:bold}td small{display:block;color:#999}
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:15px;margin:10px 0;flex-wrap:wrap}
+.toolbar input{margin:0}.toolbar-actions{display:flex;gap:10px}.toolbar select{width:185px;margin:0}
+.table-bottom{font-size:12px;margin:10px 0;color:#999}.pill{font-size:12px}.empty{padding:20px;color:#888}
+.notice{background:#faf4e5;padding:10px;border:1px solid #e5dcc6;margin:10px 0 20px}.notice strong{display:block}
+.module-note,.form-note{color:#999;font-size:12px}
+.legacy-habilitations h3{font-size:18px}.legacy-priorities{margin-top:20px}
+.trail-layout{display:flex;gap:0;align-items:start}.trail-layout>div{width:65%;min-width:500px}
+.trail-summary{position:sticky;top:10px;width:35%;padding-left:25px;box-sizing:border-box}
+.trail-summary .panel-heading{display:none}.trail-summary table{border:1px solid #aaa;font-size:14px}
+.trail-summary td,.trail-summary th{border:1px solid #aaa;padding:5px;font-size:14px;text-align:center}
+.trail-summary th{background:#f0f0f0}.criteria{padding:0;margin-bottom:20px}
+.criterion{padding:5px;border:1px solid #aaa;border-top:0;font-size:13px;display:flex;gap:6px}
+.criterion.ok{background:#e7f0c7;color:blue}.criterion.pending{background:#f9d9a7;color:red}
+.criteria p{font-size:12px;margin-top:10px}.criteria h3{background:#f0f0f0;margin:0;padding:5px;border:1px solid #aaa;font-family:inherit;font-size:14px;font-weight:bold;line-height:20px}
+.trail-toolbar{margin:20px 0}.trail-toolbar>span{margin-left:15px;color:#999;font-size:12px}
+.offer-table{margin-bottom:30px;table-layout:auto}.offer-table th{background:#f0f0f0;text-align:center;width:20px}
+.offer-table th:first-child{text-align:left;width:auto}.offer-table td{vertical-align:middle}
+.offer-table td p{margin:0;font-size:14px}.offer-table td small{font-size:14px;color:inherit}
+.offer-table td:first-child{text-align:left}.offer-table td:not(:first-child){text-align:center}
+.offer-table td.h1{background:#ccc0d9}.offer-table td.h2{background:#b6dde8}
+.priority-choice{display:flex;flex-direction:column;align-items:center;gap:7px;padding:0;width:auto;float:none;text-align:center;font-weight:bold}
+.priority-choice input{margin:0!important;float:none}.selected-offer>td:first-child{background:#e7f0c7;color:#000}
+.locked-offer{opacity:.5}.student-warning{color:red}
+.profile-grid{display:block}.field{display:block;clear:both;margin:10px 0;min-height:30px}
+.field:after{content:'';display:block;clear:both}.field input,.field select,.field textarea{display:inline-block;margin:0 0 0 5px;float:none;width:220px}
+.field textarea{width:400px;max-width:calc(100% - 180px)}label.field{width:auto;padding:0;float:none;text-align:left}
+.field-label{display:block;float:left;width:145px;padding-right:8px;text-align:right}.profile-value{display:inline-block;margin-left:5px}
+.legacy-profile{margin:20px 0}.legacy-profile th{width:160px;text-align:right}
+.legacy-profile tr:nth-child(odd){background:#edf0e1}.legacy-profile th,.legacy-profile td{padding:5px 8px;border:0;font-size:12px}
+.tcc-tabs{margin:20px 0}.tcc-tabs button{margin-right:10px}.tcc-timeline{margin:15px 0;color:#999}
+.tcc-timeline span{display:inline-block;margin-right:15px}.tcc-timeline .done{color:#527e30}
+.tcc-item{margin:10px 0}.tcc-item p{white-space:pre-wrap}
+.confirmation-row{display:block;padding:15px;border-bottom:1px solid #ddd;float:none;width:auto;text-align:left}
+.confirmation-row small{display:block}.confirmation-row input{float:right}
+#toast{position:fixed;bottom:15px;left:50%;transform:translateX(-50%);z-index:20000;display:none;padding:12px 20px;border:1px solid #666;background:#e7f0c7;color:black;max-width:85vw}
+dialog{color:#717171;border:1px solid #aaa;padding:20px;max-width:calc(100vw - 50px);width:650px}
+dialog::backdrop{background:#0006}.dialog-heading{display:flex;justify-content:space-between;align-items:center}
+.dialog-actions{margin-top:20px;text-align:right}.dialog-actions button{margin-left:10px}
+.print-only{display:none}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.legacy-links button,.legacy-bare-link{border:0;background:transparent;padding:0;color:#f9630f;text-align:left;cursor:pointer}
+.legacy-links button:hover,.legacy-bare-link:hover{text-decoration:underline}.legacy-links li{line-height:24px}
+.legacy-login fieldset{text-align:center}.legacy-login label{display:inline;float:none;width:auto;text-align:left}
+.legacy-login input{margin-left:10px}.legacy-login input[type=checkbox]{float:none;margin-top:0;margin-right:7px}
+.legacy-login .login-row{margin-bottom:10px}.legacy-login .login-row:last-of-type{margin-bottom:20px}
+.legacy-form-row{clear:both;margin:12px 0;min-height:30px}.legacy-form-row>label{float:left;width:145px;text-align:right}
+.legacy-form-row:after{content:'';display:block;clear:both}.legacy-tcc-form fieldset{margin:20px 0 30px}
+.legacy-tcc-form .legacy-form-row input{width:400px;max-width:calc(100% - 180px)}.settings-grid{display:block}.settings-card{margin-bottom:30px}
+@media(max-width:767px){.demo-controls .container{padding-left:0;padding-right:0;width:auto}.demo-control-note{display:none}#nav{float:none;margin:0}#nav>li{float:none}#nav>li>a{padding:8px 12px;white-space:normal}#nav>li>ul{top:0;left:100%}.trail-layout{display:block}.trail-layout>div{width:100%;min-width:0}.trail-summary{position:static;width:100%;padding:0}.field-label{float:none;text-align:left;width:auto;padding:0;margin-bottom:5px}.field input,.field select,.field textarea{margin:0;width:95%;max-width:95%}.legacy-form-row>label{float:none;text-align:left;width:auto}.legacy-tcc-form .legacy-form-row input{max-width:95%}.logo{height:calc((100vw - 40px) * .34);max-height:207px}.table-scroll{max-width:100%}}
+@media print{#header,#navigation-main,.demo-controls,#breadcrumb,#bottom,footer,button,.student-actions,.trail-toolbar,#toast,.module-note{display:none!important}.main-body .container{width:100%;max-width:none;padding:0}.trail-layout{display:block}.trail-layout>div,.trail-summary{width:100%;min-width:0;padding:0}.trail-summary{position:static}body:before{content:'DEMONSTRAÇÃO — DADOS FICTÍCIOS — SEM VALIDADE OFICIAL';display:block;text-align:center;margin:20px;font-size:12px}.print-only{display:block;margin:25px}.offer-table{break-inside:avoid}body[data-print=matricula] #content{display:none}[data-print-hidden=true]{display:none!important}}

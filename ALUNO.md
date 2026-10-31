@@ -1,10 +1,10 @@
 # Visão do aluno — rastreamento da reconstrução
 
-Esta entrega aproxima o fluxo do aluno de especialização do código legado recebido. O desenho visual continua novo; as fontes consultadas foram os arquivos locais do sistema antigo, não uma inspeção da aplicação em produção.
+Esta entrega aproxima parcialmente o fluxo do aluno de especialização do código legado recebido. A versão 0.3 passou a aplicar o tema do legado (cabeçalho, menu horizontal, breadcrumbs, tipografia, tabelas, botões e rodapé) e recuperou a disposição das páginas do aluno. Ainda não comprova equivalência com a aplicação atual: as fontes consultadas foram os arquivos locais recebidos, não uma inspeção da produção.
 
 | Fluxo | Referência no legado | Implementação na demonstração |
 | --- | --- | --- |
-| Área virtual | `views/aluno/index.php` e menu do tema custom | Boas-vindas, atalhos e navegação exclusiva do aluno |
+| Área virtual | `views/aluno/index.php` e menu do tema custom | Texto de boas-vindas e navegação exclusiva do aluno |
 | Trilha | `views/aluno/inscricao.php` e diretiva `tabelaDeInscricaoEmOfertas` | Ofertas mensais com ementa e docentes, H1/H2, prioridades e projeto integrador |
 | Bloqueios | Diretiva de inscrição e aviso da tela original | Períodos passados e correntes somente leitura; referência demonstrativa 10/2026 |
 | Contagem | `contadorDeComponentes.js`, `contagemDeComponentes` e `Constantes.php` | NFO/NFE/NFC, total por habilitação, distintos e reaproveitamento entre habilitações |
