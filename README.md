@@ -20,6 +20,8 @@ Com Node.js instalado, nesta pasta execute `npm start` e abra <http://localhost:
 
 Há telas navegáveis para painel, estudantes, componentes/ofertas, cursos/habilitações, trilha, notas/histórico, TCC, certificados/atestados, pessoas, encontros, financeiro, comunicação, páginas, relatórios e configurações. Cadastros genéricos de demonstração podem ser criados e editados, filtrados e exportados para CSV. Persistência somente em localStorage no navegador.
 
+O cadastro de componente curricular segue os dados encontrados no legado: nome, carga horária, ementa, bibliografia e prioridade por habilitação (NFO, NFE ou NFC). As ofertas são uma entidade separada: associam o componente a mês/ano, docentes e informações operacionais.
+
 ## Limites explícitos
 
 ### Visão do aluno
